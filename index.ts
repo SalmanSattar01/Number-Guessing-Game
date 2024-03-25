@@ -62,25 +62,25 @@ function startGame(): void {
 // Start the game
 startGame();
 //-----------------------------------------------------------------------------
-import inquirer from "inquirer";
-// 1) COMPUTER WILL GENERATE A RANDOM NUMBER
-// 2) USER INPUT FOR GUESSING NUMBER
-// 3) COMPARE USER INPUT WITH COMPUTER GENERATED NUMBER AND SHOW RESULT
+// import inquirer from "inquirer";
+// // 1) COMPUTER WILL GENERATE A RANDOM NUMBER
+// // 2) USER INPUT FOR GUESSING NUMBER
+// // 3) COMPARE USER INPUT WITH COMPUTER GENERATED NUMBER AND SHOW RESULT
 
-const randomNumber = 13;
+// const randomNumber = Math.floor(Math.random() * 10 + 1 );
 
-const answers = await inquirer.prompt([
-    {
-        name: "userGuessedNumber",
-        type: "number",
-        message: "please guess a number:",
-    },
-]);
-if(answers.userGuessedNumber === randomNumber){
-    console.log(`congratulation! you guessed right number.`);    
-} else {
-    Console.log(` you guessed a wrong number`);
-}
+// const answers = await inquirer.prompt([
+//     {
+//         name: "userGuessedNumber",
+//         type: "number",
+//         message: "please guess a number between 1 to 10:",
+//     },
+// ]);
+// if(answers.userGuessedNumber === randomNumber){
+//     console.log(`congratulation! you guessed right number.`);    
+// } else {
+//     Console.log(` you guessed a wrong number`);
+// }
 
 
 
