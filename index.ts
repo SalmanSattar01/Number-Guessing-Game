@@ -62,7 +62,6 @@ function startGame(): void {
 // Start the game
 startGame();
 
-//1111////
 //-----------------------------------------------------------------------------
 // import inquirer from "inquirer";
 // // 1) COMPUTER WILL GENERATE A RANDOM NUMBER
