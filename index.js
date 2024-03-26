@@ -7,7 +7,7 @@ function generateRandomNumber(min, max) {
 // Function to start the game
 function startGame() {
     const minNumber = 1;
-    const maxNumber = 100;
+    const maxNumber = 5;
     const secretNumber = generateRandomNumber(minNumber, maxNumber);
     let attempts = 0;
     console.log("\tWelcome to the Number Guessing Game!");
@@ -56,3 +56,22 @@ function startGame() {
 }
 // Start the game
 startGame();
+//1111////
+//-----------------------------------------------------------------------------
+// import inquirer from "inquirer";
+// // 1) COMPUTER WILL GENERATE A RANDOM NUMBER
+// // 2) USER INPUT FOR GUESSING NUMBER
+// // 3) COMPARE USER INPUT WITH COMPUTER GENERATED NUMBER AND SHOW RESULT
+// const randomNumber = Math.floor(Math.random() * 10 + 1 );
+// const answers = await inquirer.prompt([
+//     {
+//         name: "userGuessedNumber",
+//         type: "number",
+//         message: "please guess a number between 1 to 10:",
+//     },
+// ]);
+// if(answers.userGuessedNumber === randomNumber){
+//     console.log(`congratulation! you guessed right number.`);    
+// } else {
+//     console.log(` you guessed a wrong number`);
+// }

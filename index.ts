@@ -11,7 +11,7 @@ function generateRandomNumber(min: number, max: number): number {
 // Function to start the game
 function startGame(): void {
     const minNumber: number = 1;
-    const maxNumber: number = 100;
+    const maxNumber: number = 5;
     const secretNumber: number = generateRandomNumber(minNumber, maxNumber);
     let attempts: number = 0;
 
@@ -61,6 +61,8 @@ function startGame(): void {
 
 // Start the game
 startGame();
+
+//1111////
 //-----------------------------------------------------------------------------
 // import inquirer from "inquirer";
 // // 1) COMPUTER WILL GENERATE A RANDOM NUMBER
@@ -79,7 +81,7 @@ startGame();
 // if(answers.userGuessedNumber === randomNumber){
 //     console.log(`congratulation! you guessed right number.`);    
 // } else {
-//     Console.log(` you guessed a wrong number`);
+//     console.log(` you guessed a wrong number`);
 // }
 
 
